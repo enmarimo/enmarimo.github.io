@@ -3,7 +3,6 @@ layout: post
 title: "Fixing 2D collisions"
 ---
 
-# Fixing 2D collisions
 Collisions are one of the most basic things to implement in a game. I'm
 currently working on the implementation of a 2D collision system using
 ray casts, but it's not working properly: sometimes the object goes through the
@@ -54,3 +53,13 @@ if(velocity.y != 0.0f) {
 	updatePositionY();
 }
 {% endhighlight %}
+
+## Result
+After implementing the changes, the collisions seem to be working now:
+![Collisions fixed](/devlog/images/collisions_fixed.gif)
+
+I don't show the actual code because at this point it is a bit of a mess and
+I would like to refactor it. But the overall idea is the one shown in this
+post.
+In any case, what matters is that now it is working and I can start doing
+something else.
