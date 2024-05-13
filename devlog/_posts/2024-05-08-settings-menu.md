@@ -45,6 +45,7 @@ The audio settings will manage different audio levels:
 - Music audio level, for background music.
 - SFX audio level, for in-game sounds.
 - UI audio, for general ui audio.
+
 Those seem to be enough. Of course, different games might have different
 requirements.
 
